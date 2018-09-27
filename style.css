@@ -1,6 +1,6 @@
 body {
   font-family: 'Open Sans', sans-serif;
-  margin: 0px
+  margin: 0;
   background-color: ivory;
 }
 
@@ -19,4 +19,17 @@ body {
 #navbar a {
   margin-left: 75px;
   text-decoration: none;
+}
+
+.project {
+  display: inline-block;
+  overflow: hidden;
+  background-color: white;
+  width: 300px;
+  margin: 15px;
+}
+
+.proj-img {
+  width: 300px;
+  height: 300px;
 }
